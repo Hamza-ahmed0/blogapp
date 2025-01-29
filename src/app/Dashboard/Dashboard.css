@@ -1,0 +1,150 @@
+.dashboard-nav{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+    align-items: center;
+    border-bottom: 2px solid black;
+
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 150px */
+    gap: 10px;
+}
+
+
+
+.dashboard-blog{
+    display: flex;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    height: 450px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  .sidebar-list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: start; /* Center items horizontally */
+    justify-content: space-between; /* Equal spacing between items */
+    height: 100%; /* Use the full height of the sidebar */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar-list ul li {
+    font-size: 16px;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+    display: flex; /* For aligning icon and text */
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+    transition: all 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .sidebar-list ul li:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 15px;
+  }
+
+
+  .tabs{
+      width: 950px;
+      margin-top: 30px;
+      margin-left: 20px;
+      height: 450px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      /* background-color: black; */
+  }
+
+
+  /* home tab */
+.head-blog{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+
+.user-data{
+  width: 150px;
+  padding: 10px;
+  border-radius:20px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.blog-body{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-top: 20px;
+}
+
+
+
+
+
+  /* create blog */
+  .title{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+
+  .blog-txt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .blog-txt textarea{
+    height: 150px;
+    text-align: start;
+    overflow-y: auto;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    font: 14pt black arial;
+  }
+  .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .btn button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+  input{
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font: 14pt black arial;
+}

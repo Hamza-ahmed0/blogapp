@@ -1,0 +1,58 @@
+
+
+
+.signIn-form{
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    margin: 30px auto;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.signIn-form h1,p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.input-container{
+   display: flex;
+   flex-direction: column;
+   width: 400px;
+   margin-left: 50px;
+   margin-top: 20px;
+}
+
+
+
+input{
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font: 14pt black arial;
+}
+
+
+.btn{
+    margin: 0px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.error{
+    color:red;
+    text-transform: uppercase;
+}

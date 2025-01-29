@@ -1,0 +1,58 @@
+
+
+.blog-modal-header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.blog-modal-header .card-header{
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 0;
+}
+
+.modal-body{
+    position: relative;
+    top: 60px ;
+    left: 5%;
+    width: 90%;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: arial;
+    height: 75%;
+    overflow-y: auto;
+    
+}
+
+.modal-body h1{
+    font-size: 30pt;
+}
+
+.modal-body h4{
+    font-weight: lighter;
+    color: gray;
+    margin-top: 10px;
+}
+
+.modal-body p{
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+
+.blog-modal-footer{
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+}
+
+.blog-modal-footer .blog-card-footer{
+    border-radius: 0;
+    margin: 0px;
+    
+}
