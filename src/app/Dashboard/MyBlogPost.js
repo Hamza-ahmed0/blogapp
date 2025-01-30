@@ -4,6 +4,7 @@ import '../Dashboard/Dashboard.css'
 import { collection, doc, getDoc, onSnapshot, query, where } from 'firebase/firestore'
 import { getDisplayName } from 'next/dist/shared/lib/utils'
 import { db } from '../firebase'
+import BlogModal from '../BlogModal/BlogModal'
 
 function MyBlogPost({ userId }) {
 
